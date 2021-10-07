@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Shamilist/frontend-project-lvl1#readme",
   "bin": {
-    "code": "bin/brain-games.js"
+    "code": "bin/brain-games.js",
+	"brain-games": "bin/brain-games.js"
   }
 }
