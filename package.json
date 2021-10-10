@@ -19,6 +19,9 @@
   "homepage": "https://github.com/Shamilist/frontend-project-lvl1#readme",
   "bin": {
     "code": "bin/brain-games.js",
-	"brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
