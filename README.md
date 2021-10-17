@@ -6,4 +6,5 @@
 
 [![github-actions-test](https://github.com/Shamilist/frontend-project-lvl1/actions/workflows/github-actions-test/badge.svg)](https://github.com/Shamilist/frontend-project-lvl1/actions)
 
-[![asciicast](https://asciinema.org/a/442773.svg)](https://asciinema.org/a/442773)
+<!-- game is even -->
+https://asciinema.org/a/442773
