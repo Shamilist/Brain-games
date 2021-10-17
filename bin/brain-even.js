@@ -2,4 +2,4 @@
 
 import gameEven from '../src/even.js';
 
-gameEven(); 
+gameEven();
