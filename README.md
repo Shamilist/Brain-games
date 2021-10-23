@@ -12,7 +12,5 @@
 <!-- game is calc -->
 [![asciicast](https://asciinema.org/a/XKAUdAQy8UrXK382EsYpzBOC4.svg)](https://asciinema.org/a/XKAUdAQy8UrXK382EsYpzBOC4)
 
-
-
 <!-- game is gcd -->
 [![asciicast](https://asciinema.org/a/J7l6FU73IgcuesCCbam48q05K.svg)](https://asciinema.org/a/J7l6FU73IgcuesCCbam48q05K)
