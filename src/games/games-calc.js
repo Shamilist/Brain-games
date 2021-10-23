@@ -22,17 +22,17 @@ const calculation = (num1, num2, operator) => {
 
 const operators = ['+', '-', '*'];
 
-const rundomNumber1 = Math.floor(Math.random() * 100);
-const rundomNumber2 = Math.floor(Math.random() * 100);
-const rundomOperator = Math.floor(Math.random() * 3);
+const gameQuestionAnswer = () => {
+  const rundomNumber1 = Math.floor(Math.random() * 100);
+  const rundomNumber2 = Math.floor(Math.random() * 100);
+  const rundomOperator = Math.floor(Math.random() * 3);
 
-const gameQuestion = () => `${rundomNumber1}${operators[rundomOperator]}${rundomNumber2}`;
+  const gameQuestion = `${rundomNumber1}${operators[rundomOperator]}${rundomNumber2}`;
 
-const gamerAnswer = () => {
-  const gamerAnswer1 = String(calculation(rundomNumber1, rundomNumber2, operators[rundomOperator]));
-  return gamerAnswer1;
+  const gamerAnswer = String(calculation(rundomNumber1, rundomNumber2, operators[rundomOperator]));
+  return [gameQuestion, gamerAnswer];
 };
 
-const gameCalc = () => gameScript(gameRules, gameQuestion, gamerAnswer);
+const gameCalc = () => gameScript(gameRules, gameQuestionAnswer);
 
 export default gameCalc;
