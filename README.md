@@ -8,4 +8,7 @@
 [![github-actions-test](https://github.com/Shamilist/frontend-project-lvl1/actions/workflows/github-actions-test/badge.svg)](https://github.com/Shamilist/frontend-project-lvl1/actions)
 
 <!-- game is even -->
-https://asciinema.org/a/442773
+[![asciicast](https://asciinema.org/a/442773.svg)](https://asciinema.org/a/442773)
+
+<!-- game is calc -->
+[![asciicast](https://asciinema.org/a/XKAUdAQy8UrXK382EsYpzBOC4.svg)](https://asciinema.org/a/XKAUdAQy8UrXK382EsYpzBOC4)
