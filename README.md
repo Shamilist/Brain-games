@@ -14,3 +14,6 @@
 
 <!-- game is gcd -->
 [![asciicast](https://asciinema.org/a/J7l6FU73IgcuesCCbam48q05K.svg)](https://asciinema.org/a/J7l6FU73IgcuesCCbam48q05K)
+
+<!-- game is progression -->
+[![asciicast](https://asciinema.org/a/egEGVUdryjCP8ED7XQODf9MjQ.svg)](https://asciinema.org/a/egEGVUdryjCP8ED7XQODf9MjQ)
