@@ -13,12 +13,16 @@
 
 [![asciicast](https://asciinema.org/a/442773.svg)](https://asciinema.org/a/442773)
 
+
+
 <!-- game is calc -->
 ### Brain-calc game
 ***
 **In this game you need to calculate the correct answer of the expression and write it down in the answer.**
 
 [![asciicast](https://asciinema.org/a/XKAUdAQy8UrXK382EsYpzBOC4.svg)](https://asciinema.org/a/XKAUdAQy8UrXK382EsYpzBOC4)
+
+
 
 <!-- game is gcd -->
 ### Вrain-gcd game
@@ -27,11 +31,22 @@
 
 [![asciicast](https://asciinema.org/a/J7l6FU73IgcuesCCbam48q05K.svg)](https://asciinema.org/a/J7l6FU73IgcuesCCbam48q05K)
 
+
+
 <!-- game is progression -->
 ### Brain-progression game
+***
+**In this game you need to guess the number, skipped in arithmetic progression.**
+
 [![asciicast](https://asciinema.org/a/egEGVUdryjCP8ED7XQODf9MjQ.svg)](https://asciinema.org/a/egEGVUdryjCP8ED7XQODf9MjQ)
 
+
+
 <!-- game is prime -->
-### Brain-prime gsme
+### Brain-prime game
+***
+**In this game you need answer 'yes' if number is prime and 'no' if number is not even.
+A prime number is a number greater than 1 with only two factors – themselves and 1.**
+
 [![asciicast](https://asciinema.org/a/HQfB7tma5oIXeFVkPpG8IAG58.svg)](https://asciinema.org/a/HQfB7tma5oIXeFVkPpG8IAG58)
 
