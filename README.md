@@ -7,7 +7,7 @@
 [![github-actions-test](https://github.com/Shamilist/frontend-project-lvl1/actions/workflows/github-actions-test/badge.svg)](https://github.com/Shamilist/frontend-project-lvl1/actions)
 
 <!-- game is even -->
-### brain-even game
+### Brain-even game
 ***
 **In this game you need answer 'yes' if number is even and 'no' if number is not even.**
 
