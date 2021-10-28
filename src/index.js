@@ -8,7 +8,7 @@ const gameScript = (gameRules, gameQuestionAnswer) => {
 
   for (let item = 0; item < 3; item += 1) {
     const [gameQuestion, gamerAnswer] = gameQuestionAnswer();
-    console.log(`Question :${gameQuestion}`);
+    console.log(`Question: ${gameQuestion}`);
     const yourAnswer = readlineSync.question('Your answer: ');
     if (yourAnswer === gamerAnswer) {
       console.log('Correct!');
