@@ -27,7 +27,7 @@ const gameQuestionAnswer = () => {
   const randomNumber2 = Math.floor(Math.random() * 100);
   const randomOperator = Math.floor(Math.random() * 3);
 
-  const gameQuestion = `${randomNumber1}${operators[randomOperator]}${randomNumber2}`;
+  const gameQuestion = `${randomNumber1} ${operators[randomOperator]} ${randomNumber2}`;
 
   const gamerAnswer = String(calculation(randomNumber1, randomNumber2, operators[randomOperator]));
   return [gameQuestion, gamerAnswer];
