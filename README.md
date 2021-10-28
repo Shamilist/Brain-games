@@ -14,19 +14,24 @@
 [![asciicast](https://asciinema.org/a/442773.svg)](https://asciinema.org/a/442773)
 
 <!-- game is calc -->
-### brain-calc game
+### Brain-calc game
+***
+**In this game you need to calculate the correct answer of the expression and write it down in the answer.**
 
 [![asciicast](https://asciinema.org/a/XKAUdAQy8UrXK382EsYpzBOC4.svg)](https://asciinema.org/a/XKAUdAQy8UrXK382EsYpzBOC4)
 
 <!-- game is gcd -->
-### brain-gcd game
+### Вrain-gcd game
+***
+**In this game two random numbers are displayed and you need calculate and enter the greatest common divisor of these numbers.**
+
 [![asciicast](https://asciinema.org/a/J7l6FU73IgcuesCCbam48q05K.svg)](https://asciinema.org/a/J7l6FU73IgcuesCCbam48q05K)
 
 <!-- game is progression -->
-### brain-progression game
+### Brain-progression game
 [![asciicast](https://asciinema.org/a/egEGVUdryjCP8ED7XQODf9MjQ.svg)](https://asciinema.org/a/egEGVUdryjCP8ED7XQODf9MjQ)
 
 <!-- game is prime -->
-### brain-prime gsme
+### Brain-prime gsme
 [![asciicast](https://asciinema.org/a/HQfB7tma5oIXeFVkPpG8IAG58.svg)](https://asciinema.org/a/HQfB7tma5oIXeFVkPpG8IAG58)
 
