@@ -7,17 +7,22 @@
 [![github-actions-test](https://github.com/Shamilist/frontend-project-lvl1/actions/workflows/github-actions-test/badge.svg)](https://github.com/Shamilist/frontend-project-lvl1/actions)
 
 <!-- game is even -->
+### brain-even game
 [![asciicast](https://asciinema.org/a/442773.svg)](https://asciinema.org/a/442773)
 
 <!-- game is calc -->
+### brain-calc game
 [![asciicast](https://asciinema.org/a/XKAUdAQy8UrXK382EsYpzBOC4.svg)](https://asciinema.org/a/XKAUdAQy8UrXK382EsYpzBOC4)
 
 <!-- game is gcd -->
+### brain-gcd game
 [![asciicast](https://asciinema.org/a/J7l6FU73IgcuesCCbam48q05K.svg)](https://asciinema.org/a/J7l6FU73IgcuesCCbam48q05K)
 
 <!-- game is progression -->
+### brain-progression game
 [![asciicast](https://asciinema.org/a/egEGVUdryjCP8ED7XQODf9MjQ.svg)](https://asciinema.org/a/egEGVUdryjCP8ED7XQODf9MjQ)
 
-<!-- game is Prime -->
+<!-- game is prime -->
+### brain-prime gsme
 [![asciicast](https://asciinema.org/a/HQfB7tma5oIXeFVkPpG8IAG58.svg)](https://asciinema.org/a/HQfB7tma5oIXeFVkPpG8IAG58)
 
