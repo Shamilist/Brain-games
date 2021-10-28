@@ -45,7 +45,8 @@
 <!-- game is prime -->
 ### Brain-prime game
 ***
-**In this game you need answer 'yes' if number is prime and 'no' if number is not even.   A prime number is a number greater than 1 with only two factors – themselves and 1.**
+**In this game you need answer 'yes' if number is prime and 'no' if number is not even.**
+**A prime number is a number greater than 1 with only two factors – themselves and 1.**
 
 [![asciicast](https://asciinema.org/a/HQfB7tma5oIXeFVkPpG8IAG58.svg)](https://asciinema.org/a/HQfB7tma5oIXeFVkPpG8IAG58)
 
