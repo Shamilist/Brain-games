@@ -17,3 +17,7 @@
 
 <!-- game is progression -->
 [![asciicast](https://asciinema.org/a/egEGVUdryjCP8ED7XQODf9MjQ.svg)](https://asciinema.org/a/egEGVUdryjCP8ED7XQODf9MjQ)
+
+<!-- game is Prime -->
+[![asciicast](https://asciinema.org/a/HQfB7tma5oIXeFVkPpG8IAG58.svg)](https://asciinema.org/a/HQfB7tma5oIXeFVkPpG8IAG58)
+
