@@ -28,8 +28,7 @@
 ***
 **In this game two random numbers are displayed and you need calculate and enter the greatest common divisor of these numbers.**
 
-[![asciicast](https://asciinema.org/a/J7l6FU73IgcuesCCbam48q05K.svg)](https://asciinema.org/a/J7l6FU73IgcuesCCbam48q05K)
-
+[![asciicast](https://asciinema.org/a/PONNHhV45XDsC6xC5AX1GfY8D.svg)](https://asciinema.org/a/PONNHhV45XDsC6xC5AX1GfY8D)
 
 
 <!-- game is progression -->
