@@ -10,7 +10,7 @@
 ***
 **In this game you need answer 'yes' if number is even and 'no' if number is not even.**
 
-[![asciicast](https://asciinema.org/a/442773.svg)](https://asciinema.org/a/442773)
+[![asciicast](https://asciinema.org/a/gmg3zLGTGrAzzsRrkiKX2jiha.svg)](https://asciinema.org/a/gmg3zLGTGrAzzsRrkiKX2jiha)
 
 
 
