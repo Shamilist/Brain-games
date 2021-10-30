@@ -8,19 +8,19 @@
 
 ## Brain games   
 
-** There are 5 games. In each game you need to answer 3 questions.   
-** If you answer the questions correctly 3 times in a row - you win game!    
-** If you gave at least one wrong answer - the game will end and you can start over.    
+**There are 5 games. In each game you need to answer 3 questions.   
+**If you answer the questions correctly 3 times in a row - you win game!    
+**If you gave at least one wrong answer - the game will end and you can start over.    
      
           
               
 ### How to set up the game:
 ***
-** 1. Clone this repository.    
-** 2. Go to directory frontend-project-lvl1.     
-** 3. Enter the command: make install.     
-** 4. Enter the command: npm link.    
-** 5. To start the game, enter the command:   
+**1. Clone this repository.    
+**2. Go to directory frontend-project-lvl1.     
+**3. Enter the command: make install.     
+**4. Enter the command: npm link.    
+**5. To start the game, enter the command:   
 
 
 <!-- game is even -->
