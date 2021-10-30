@@ -6,9 +6,9 @@
 [![github-actions-test](https://github.com/Shamilist/frontend-project-lvl1/actions/workflows/github-actions-test.yml/badge.svg?branch=main)](https://github.com/Shamilist/frontend-project-lvl1/actions/workflows/github-actions-test.yml)
 
 
-## Brain games
-***
-**There are 5 games. In each game you need to answer 3 questions.   
+## Brain games   
+
+** There are 5 games. In each game you need to answer 3 questions.   
 ** If you answer the questions correctly 3 times in a row - you win game!    
 ** If you gave at least one wrong answer - the game will end and you can start over.    
      
