@@ -21,11 +21,11 @@
 **3. Enter the command: make install.**     
 **4. Enter the command: npm link.**    
 **5. To start the game, enter the command:**  
-- Brain-even game - make brain-even
-- Brain-calc game - make brain-calc
-- Вrain-gcd game - make brain-gcd
-- Brain-progression game - make brain-progression
-- Brain-prime game - make brain-prime
+- Brain-even game - *make brain-even*
+- Brain-calc game - *make brain-calc*
+- Вrain-gcd game - *make brain-gcd*
+- Brain-progression game - *make brain-progression*
+- Brain-prime game - *make brain-prime*
 
 
 <!-- game is even -->
