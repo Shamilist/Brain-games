@@ -3,7 +3,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/c6e575ffb741acb5d5a0/maintainability)](https://codeclimate.com/github/Shamilist/frontend-project-lvl1/maintainability)
 
-![run-tests](https://github.com/Shamilist/frontend-project-lvl1/actions/workflows/github-actions-test/badge.svg)]
+[![github-actions-test](https://github.com/Shamilist/frontend-project-lvl1/actions/workflows/github-actions-test.yml/badge.svg?branch=main)](https://github.com/Shamilist/frontend-project-lvl1/actions/workflows/github-actions-test.yml)
 
 <!-- game is even -->
 ### Brain-even game
