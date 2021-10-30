@@ -6,14 +6,17 @@ const gameScript = (gameRules, gameQuestionAnswer) => {
   console.log(`Hello ,${userName}!`);
   console.log(gameRules);
 
-  for (let item = 0; item < 3; item += 1) {
+  const numberOfGames = 3;
+
+  for (let item = 0; item < numberOfGames; item += 1) {
     const [gameQuestion, gamerAnswer] = gameQuestionAnswer();
     console.log(`Question: ${gameQuestion}`);
     const yourAnswer = readlineSync.question('Your answer: ');
     if (yourAnswer === gamerAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`${yourAnswer} is wrong answer ;(. Correct answer was ${gamerAnswer}.\nLet's try again, ${userName}!`);
+      console.log(`${yourAnswer} is wrong answer ;(. Correct answer was ${gamerAnswer}.`);
+      console.log(`Let's try again, ${userName}!`);
       return;
     }
   }
