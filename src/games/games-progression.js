@@ -1,4 +1,5 @@
 import gameScript from '../index.js';
+import getRandom from '../getRandom.js';
 
 const gameRules = 'What number is missing in the progression?';
 
@@ -11,9 +12,12 @@ const arithmeticProgression = (start, growStep) => {
 };
 
 const gameQuestionAnswer = () => {
-  const firstNumber = (Math.floor(Math.random() * 10));
-  const randomGrowStep = (Math.floor(Math.random() * 10));
-  const randomArrIndex = (Math.floor(Math.random() * 8));
+  const randomNumberStart = 1;
+  const ranodmNumberMax = 10;
+  const randomIndexMaxNumber = 8;
+  const firstNumber = getRandom(randomNumberStart, ranodmNumberMax);
+  const randomGrowStep = getRandom(randomNumberStart, ranodmNumberMax);
+  const randomArrIndex = getRandom(randomNumberStart, randomIndexMaxNumber);
 
   const progression = arithmeticProgression(firstNumber, randomGrowStep);
 

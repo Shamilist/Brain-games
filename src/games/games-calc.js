@@ -1,4 +1,5 @@
 import gameScript from '../index.js';
+import getRandom from '../getRandom.js';
 
 const gameRules = 'What is the result of the expression?';
 
@@ -23,9 +24,12 @@ const calculation = (num1, num2, operator) => {
 const operators = ['+', '-', '*'];
 
 const gameQuestionAnswer = () => {
-  const randomNumber1 = Math.floor(Math.random() * 100);
-  const randomNumber2 = Math.floor(Math.random() * 100);
-  const randomOperator = Math.floor(Math.random() * 3);
+  const randomNumberStart = 0;
+  const ranodmNumberMax = 100;
+  const randomOperatorNumber = 3;
+  const randomNumber1 = getRandom(randomNumberStart, ranodmNumberMax);
+  const randomNumber2 = getRandom(randomNumberStart, ranodmNumberMax);
+  const randomOperator = getRandom(randomNumberStart, randomOperatorNumber);
 
   const gameQuestion = `${randomNumber1} ${operators[randomOperator]} ${randomNumber2}`;
 
