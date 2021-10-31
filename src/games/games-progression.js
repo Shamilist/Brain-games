@@ -11,6 +11,13 @@ const arithmeticProgression = (start, growStep) => {
   return array;
 };
 
+const replaceElement = (arr, arrIndex) => {
+  const arr1 = arr;
+  const arrIndex1 = arrIndex;
+  arr1[arrIndex1] = '..';
+  return arr1.join(' ');
+};
+
 const gameQuestionAnswer = () => {
   const randomNumberStart = 1;
   const ranodmNumberMax = 10;
@@ -20,13 +27,6 @@ const gameQuestionAnswer = () => {
   const randomArrIndex = getRandom(randomNumberStart, randomIndexMaxNumber);
 
   const progression = arithmeticProgression(firstNumber, randomGrowStep);
-
-  const replaceElement = (arr, arrIndex) => {
-    const arr1 = arr;
-    const arrIndex1 = arrIndex;
-    arr1[arrIndex1] = '..';
-    return arr1.join(' ');
-  };
 
   const gameQuestion = replaceElement(progression, randomArrIndex);
 
