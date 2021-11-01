@@ -3,17 +3,17 @@ import getRandom from '../getRandom.js';
 
 const gameRules = 'What is the result of the expression?';
 
-const makeCount = (num1, num2, operator) => {
+const makeCount = (number1, number2, operator) => {
   let result = 0;
   switch (operator) {
     case '+':
-      result = num1 + num2;
+      result = number1 + number2;
       break;
     case '-':
-      result = num1 - num2;
+      result = number1 - number2;
       break;
     case '*':
-      result = num1 * num2;
+      result = number1 * number2;
       break;
     default:
       break;
@@ -26,7 +26,7 @@ const operators = ['+', '-', '*'];
 const gameQuestionAnswer = () => {
   const randomNumberStart = 0;
   const ranodmNumberMax = 100;
-  const randomOperatorNumber = 3;
+  const randomOperatorNumber = 2;
   const randomNumber1 = getRandom(randomNumberStart, ranodmNumberMax);
   const randomNumber2 = getRandom(randomNumberStart, ranodmNumberMax);
   const randomOperator = getRandom(randomNumberStart, randomOperatorNumber);

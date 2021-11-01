@@ -3,11 +3,11 @@ import getRandom from '../getRandom.js';
 
 const gameRules = 'Find the greatest common divisor of given numbers.';
 
-const findGratestDivisor = (num1, num2) => {
-  if (num2 === 0) {
-    return num1;
+const findGratestDivisor = (number1, number2) => {
+  if (number2 === 0) {
+    return number1;
   }
-  return findGratestDivisor(num2, num1 % num2);
+  return findGratestDivisor(number2, number1 % number2);
 };
 
 const gameQuestionAnswer = () => {
