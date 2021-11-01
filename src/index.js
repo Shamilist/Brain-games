@@ -12,12 +12,13 @@ const gameScript = (gameRules, gameQuestionAnswer) => {
     const [gameQuestion, gamerAnswer] = gameQuestionAnswer();
     console.log(`Question: ${gameQuestion}`);
     const yourAnswer = readlineSync.question('Your answer: ');
-    if (yourAnswer === gamerAnswer) {
-      console.log('Correct!');
-    } else {
+    if (yourAnswer !== gamerAnswer) {
       console.log(`${yourAnswer} is wrong answer ;(. Correct answer was ${gamerAnswer}.`);
       console.log(`Let's try again, ${userName}!`);
       return;
+    }
+    if (yourAnswer === gamerAnswer) {
+      console.log('Correct!');
     }
   }
   console.log(`Congratulations, ${userName}!`);
