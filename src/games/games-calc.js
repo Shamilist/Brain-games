@@ -4,21 +4,16 @@ import getRandom from '../getRandom.js';
 const gameRules = 'What is the result of the expression?';
 
 const makeCount = (number1, number2, operator) => {
-  let result = 0;
   switch (operator) {
     case '+':
-      result = number1 + number2;
-      break;
+      return number1 + number2;
     case '-':
-      result = number1 - number2;
-      break;
+      return number1 - number2;
     case '*':
-      result = number1 * number2;
-      break;
+      return number1 * number2;
     default:
-      break;
+      throw new Error(`Operation ${operator} is not supported.`);
   }
-  return result;
 };
 
 const operators = ['+', '-', '*'];
