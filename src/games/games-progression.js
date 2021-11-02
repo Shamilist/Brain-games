@@ -3,19 +3,21 @@ import getRandom from '../getRandom.js';
 
 const gameRules = 'What number is missing in the progression?';
 
+const arithmeticProgressionLength = 9;
+
 const arithmeticProgression = (start, growStep) => {
   const array = [];
-  for (let i = 1; i < 9; i += 1) {
+  for (let i = 1; i < arithmeticProgressionLength; i += 1) {
     array.push(start + growStep * i);
   }
   return array;
 };
 
-const replaceElement = (arr, arrIndex) => {
-  const arr1 = arr;
-  const arrIndex1 = arrIndex;
-  arr1[arrIndex1] = '..';
-  return arr1.join(' ');
+const replaceElement = (progression, hiddenIndex) => {
+  const newProgression = progression;
+  const newHiddenIndex = hiddenIndex;
+  newProgression[newHiddenIndex] = '..';
+  return newProgression.join(' ');
 };
 
 const gameQuestionAnswer = () => {
