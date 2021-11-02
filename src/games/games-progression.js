@@ -1,4 +1,4 @@
-import gameScript from '../index.js';
+import startGameLogic from '../index.js';
 import getRandom from '../getRandom.js';
 
 const gameRules = 'What number is missing in the progression?';
@@ -20,13 +20,11 @@ const replaceElement = (progression, hiddenIndex) => {
   return newProgression.join(' ');
 };
 
-const gameQuestionAnswer = () => {
-  const randomNumberStart = 1;
-  const ranodmNumberMax = 10;
+const createGameQuestionAnswer = () => {
   const randomIndexMaxNumber = 8;
-  const firstNumber = getRandom(randomNumberStart, ranodmNumberMax);
-  const randomGrowStep = getRandom(randomNumberStart, ranodmNumberMax);
-  const randomArrIndex = getRandom(randomNumberStart, randomIndexMaxNumber);
+  const firstNumber = getRandom(1, 10);
+  const randomGrowStep = getRandom(1, 10);
+  const randomArrIndex = getRandom(1, randomIndexMaxNumber);
 
   const progression = arithmeticProgression(firstNumber, randomGrowStep);
 
@@ -39,6 +37,6 @@ const gameQuestionAnswer = () => {
   return [gameQuestion, gamerAnswer];
 };
 
-const gameProgression = () => gameScript(gameRules, gameQuestionAnswer);
+const startGameProgression = () => startGameLogic(gameRules, createGameQuestionAnswer);
 
-export default gameProgression;
+export default startGameProgression;
